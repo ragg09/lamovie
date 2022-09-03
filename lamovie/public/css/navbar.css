@@ -1,0 +1,110 @@
+#nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 35px;
+	padding: 0 0 0 100px;
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+	/*border: 1px solid black;*/
+
+}
+
+
+#nav.hidden {
+    transform: translate3d(0,-100%,0);
+}
+
+#nav .channel{
+	position: relative;
+
+}
+
+#nav .channel img{
+	height: 70px;
+	width: 70px;
+}
+
+#nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	float: right;
+	background: grey;
+	opacity: 0.95;
+}
+#nav ul li{
+	list-style: none;
+	line-height: 30px;
+	text-align: center;
+	
+}
+
+#nav ul li a {
+	display: block;
+	padding: 0 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+
+#nav ul li a:hover{
+	background: pink;
+}
+
+#nav ul li ul{
+	display: none;
+}
+
+
+#nav ul li:hover ul{
+	display: block;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*para sa pagination*/
+
+nav{
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 35px;
+	padding: 0 0 0 100px;
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+	/*border: 1px solid black;*/
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	float: left;
+	background: lightgray;
+}
+
+nav ul li{
+	list-style: none;
+	line-height: 30px;
+	text-align: center;
+	
+}
+
+nav ul li a {
+	display: block;
+	padding: 0 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+nav ul li a:hover{
+	background: pink;
+}
